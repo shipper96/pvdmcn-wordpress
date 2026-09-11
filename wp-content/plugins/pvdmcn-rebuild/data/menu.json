@@ -1,0 +1,212 @@
+[
+  {
+    "key": "news",
+    "label": "News",
+    "page_key": "news",
+    "parent_key": ""
+  },
+  {
+    "key": "product",
+    "label": "Product",
+    "page_key": "product",
+    "parent_key": ""
+  },
+  {
+    "key": "prod-main",
+    "label": "Sản phẩm chủ yếu",
+    "page_key": "prod-main",
+    "parent_key": "product"
+  },
+  {
+    "key": "prod-drilling",
+    "label": "Hóa chất dung dịch khoan",
+    "page_key": "prod-drilling",
+    "parent_key": "product"
+  },
+  {
+    "key": "prod-refinery",
+    "label": "Sản phẩm lọc hóa dầu",
+    "page_key": "prod-refinery",
+    "parent_key": "product"
+  },
+  {
+    "key": "prod-other",
+    "label": "Sản phẩm khác",
+    "page_key": "prod-other",
+    "parent_key": "product"
+  },
+  {
+    "key": "quality",
+    "label": "Quality control",
+    "page_key": "quality",
+    "parent_key": ""
+  },
+  {
+    "key": "activities",
+    "label": "Activities",
+    "page_key": "activities",
+    "parent_key": ""
+  },
+  {
+    "key": "business",
+    "label": "Sản xuất kinh doanh",
+    "page_key": "business",
+    "parent_key": "activities"
+  },
+  {
+    "key": "party",
+    "label": "Đảng bộ Công ty",
+    "page_key": "party",
+    "parent_key": "activities"
+  },
+  {
+    "key": "party-company",
+    "label": "Đảng bộ Công ty DMC - MB",
+    "page_key": "party-company",
+    "parent_key": "party"
+  },
+  {
+    "key": "party-admin",
+    "label": "Chi bộ khối Hành chính",
+    "page_key": "party-admin",
+    "parent_key": "party"
+  },
+  {
+    "key": "party-prof",
+    "label": "Chi bộ khối Nghiệp vụ",
+    "page_key": "party-prof",
+    "parent_key": "party"
+  },
+  {
+    "key": "party-tech",
+    "label": "Chi bộ khối Kỹ thuật",
+    "page_key": "party-tech",
+    "parent_key": "party"
+  },
+  {
+    "key": "party-prod",
+    "label": "Chi bộ khối Sản xuất",
+    "page_key": "party-prod",
+    "parent_key": "party"
+  },
+  {
+    "key": "culture",
+    "label": "Văn hóa thể thao",
+    "page_key": "culture",
+    "parent_key": "activities"
+  },
+  {
+    "key": "union",
+    "label": "Công Đoàn cơ sở",
+    "page_key": "union",
+    "parent_key": "culture"
+  },
+  {
+    "key": "veterans",
+    "label": "Hội Cựu chiến binh",
+    "page_key": "veterans",
+    "parent_key": "culture"
+  },
+  {
+    "key": "youth",
+    "label": "Đoàn thanh niên",
+    "page_key": "youth",
+    "parent_key": "culture"
+  },
+  {
+    "key": "ir",
+    "label": "Investor Relations",
+    "page_key": "ir",
+    "parent_key": ""
+  },
+  {
+    "key": "annual",
+    "label": "Báo cáo thường niên",
+    "page_key": "annual",
+    "parent_key": "ir"
+  },
+  {
+    "key": "governance",
+    "label": "Báo cáo tình hình quản trị",
+    "page_key": "governance",
+    "parent_key": "ir"
+  },
+  {
+    "key": "financial",
+    "label": "Báo cáo tài chính",
+    "page_key": "financial",
+    "parent_key": "ir"
+  },
+  {
+    "key": "agm",
+    "label": "Đại hội đồng cổ đông",
+    "page_key": "agm",
+    "parent_key": "ir"
+  },
+  {
+    "key": "stock",
+    "label": "Cổ phiếu niêm yết",
+    "page_key": "stock",
+    "parent_key": "ir"
+  },
+  {
+    "key": "audit",
+    "label": "Hợp đồng kiểm toán",
+    "page_key": "audit",
+    "parent_key": "ir"
+  },
+  {
+    "key": "customers",
+    "label": "Customers",
+    "page_key": "customers",
+    "parent_key": ""
+  },
+  {
+    "key": "customers-external",
+    "label": "External partners",
+    "page_key": "customers-external",
+    "parent_key": "customers"
+  },
+  {
+    "key": "customers-domestic",
+    "label": "Domestic partners",
+    "page_key": "customers-domestic",
+    "parent_key": "customers"
+  },
+  {
+    "key": "customers-key",
+    "label": "Khách hàng tiêu biểu",
+    "page_key": "customers-key",
+    "parent_key": "customers"
+  },
+  {
+    "key": "services",
+    "label": "dịch vụ",
+    "page_key": "services",
+    "parent_key": ""
+  },
+  {
+    "key": "logistics",
+    "label": "Một số hoạt động logistics",
+    "page_key": "logistics",
+    "parent_key": "services"
+  },
+  {
+    "key": "rules",
+    "label": "QUY CHẾ, NỘI QUY",
+    "page_key": "rules",
+    "parent_key": ""
+  },
+  {
+    "key": "charter",
+    "label": "Điều lệ",
+    "page_key": "charter",
+    "parent_key": "rules"
+  },
+  {
+    "key": "legacy-2019",
+    "label": "Năm 2019",
+    "page_key": "legacy-2019",
+    "parent_key": ""
+  }
+]

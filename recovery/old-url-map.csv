@@ -1,0 +1,55 @@
+﻿kind,title,recovery_status,old_url,wordpress_path
+page,Trang chủ,RECOVERED_STRUCTURE,index.php/en.html,/trang-chu/
+page,Giới thiệu,RECONSTRUCTED,index.php/en/about.html,/gioi-thieu/
+page,Tin tức,MISSING_BODY,index.php/en/news.html,/tin-tuc/
+page,Sản phẩm,RECONSTRUCTED,index.php/en/component/content/indexd3b6.html?Itemid=271,/san-pham/
+page,Sản phẩm chủ yếu,RECONSTRUCTED,index.php/en/product/san-pham-chu-yeu.html,/san-pham/san-pham-chu-yeu/
+page,Hóa chất dung dịch khoan,RECONSTRUCTED,index.php/en/product/hoachatdungdichkhoan.html,/san-pham/hoa-chat-dung-dich-khoan/
+page,Sản phẩm lọc hóa dầu,RECONSTRUCTED,index.php/en/product/lochoadau.html,/san-pham/san-pham-loc-hoa-dau/
+page,Sản phẩm khác,RECONSTRUCTED,index.php/en/product/sanphamkhac.html,/san-pham/san-pham-khac/
+page,Quản lý chất lượng,RECONSTRUCTED,index.php/en/quality-control.html,/quan-ly-chat-luong/
+page,Hoạt động,RECOVERED_STRUCTURE,index.php/en/activities.html,/hoat-dong/
+page,Sản xuất kinh doanh,RECONSTRUCTED,index.php/en/activities/hoat-dong-sx-kd.html,/hoat-dong/san-xuat-kinh-doanh/
+page,Đảng bộ Công ty,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty.html,/hoat-dong/dang-bo-cong-ty/
+page,Đảng bộ Công ty DMC - MB,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty/d-ng-b-cong-ty-dmc-mb.html,/hoat-dong/dang-bo-cong-ty/dang-bo-cong-ty-dmc-mb/
+page,Chi bộ khối Hành chính,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-hanh-chinh.html,/hoat-dong/dang-bo-cong-ty/chi-bo-khoi-hanh-chinh/
+page,Chi bộ khối Nghiệp vụ,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-nghi-p-v.html,/hoat-dong/dang-bo-cong-ty/chi-bo-khoi-nghiep-vu/
+page,Chi bộ khối Kỹ thuật,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-k-thu-t.html,/hoat-dong/dang-bo-cong-ty/chi-bo-khoi-ky-thuat/
+page,Chi bộ khối Sản xuất,MISSING_BODY,index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-s-n-xu-t.html,/hoat-dong/dang-bo-cong-ty/chi-bo-khoi-san-xuat/
+page,Văn hóa thể thao,MISSING_BODY,index.php/en/activities/vhtt.html,/hoat-dong/van-hoa-the-thao/
+page,Công đoàn cơ sở,MISSING_BODY,index.php/en/activities/vhtt/hdcd.html,/hoat-dong/van-hoa-the-thao/cong-doan-co-so/
+page,Hội Cựu chiến binh,MISSING_BODY,index.php/en/activities/vhtt/ho-t-d-ng-c-a-h-i-c-u-chi-n-binh.html,/hoat-dong/van-hoa-the-thao/hoi-cuu-chien-binh/
+page,Đoàn thanh niên,MISSING_BODY,index.php/en/activities/vhtt/hoat-dong-tn.html,/hoat-dong/van-hoa-the-thao/doan-thanh-nien/
+page,Quan hệ cổ đông,RECOVERED_STRUCTURE,index.php/en/investor-relations.html,/quan-he-co-dong/
+page,Báo cáo thường niên,RECOVERED_STRUCTURE,index.php/en/investor-relations/bao-cao-thuong-nien.html,/quan-he-co-dong/bao-cao-thuong-nien/
+page,Báo cáo tình hình quản trị,RECOVERED_STRUCTURE,index.php/en/investor-relations/bao-cao-h-i-d-ng-qu-n-tr.html,/quan-he-co-dong/bao-cao-quan-tri/
+page,Báo cáo tài chính,RECOVERED_STRUCTURE,index.php/en/investor-relations/bao-cao-tai-chinh.html,/quan-he-co-dong/bao-cao-tai-chinh/
+page,Đại hội đồng cổ đông,RECOVERED_STRUCTURE,index.php/en/investor-relations/dai-hoi-co-dong.html,/quan-he-co-dong/dai-hoi-dong-co-dong/
+page,Cổ phiếu niêm yết,RECONSTRUCTED,index.php/en/investor-relations/c-phi-u-niem-y-t.html,/quan-he-co-dong/co-phieu-niem-yet/
+page,Hợp đồng kiểm toán,RECOVERED_STRUCTURE,index.php/en/investor-relations/h-p-d-ng-ki-m-toan.html,/quan-he-co-dong/hop-dong-kiem-toan/
+page,Đối tác nước ngoài,MISSING_BODY,index.php/en/customers/external-partners.html,/khach-hang/doi-tac-nuoc-ngoai/
+page,Đối tác trong nước,MISSING_BODY,index.php/en/customers/domestic-partners.html,/khach-hang/doi-tac-trong-nuoc/
+page,Khách hàng tiêu biểu,MISSING_BODY,index.php/en/customers/khach-hang-tieu-bieu.html,/khach-hang/khach-hang-tieu-bieu/
+page,Dịch vụ,RECONSTRUCTED,index.php/en/dich-vu.html,/dich-vu/
+page,Một số hoạt động logistics,RECONSTRUCTED,index.php/en/dich-vu/hinh-anh-logistic.html,/dich-vu/hoat-dong-logistics/
+page,"Quy chế, nội quy",RECOVERED_STRUCTURE,index.php/en/n-i-h.html,/quy-che-noi-quy/
+page,Điều lệ,RECOVERED_STRUCTURE,index.php/en/n-i-h/di-u-l.html,/quy-che-noi-quy/dieu-le/
+page,Năm 2019,MISSING_BODY,index.php/en/nam-2019.html,/nam-2019/
+page,Liên hệ,RECONSTRUCTED,index.php/en/contact.html,/lien-he/
+post,"BIÊN BẢN, NGHỊ QUYẾT ĐẠI HỘI ĐỒNG CỔ ĐÔNG THƯỜNG NIÊN NĂM 2020",RECOVERED_HTML,index.php/en/investor-relations/dai-hoi-co-dong/nam-2020/66-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020/337-bien-b-n-ngh-quy-t-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020.html,/bien-ban-nghi-quyet-dhdcd-thuong-nien-2020/
+post,Thư mời họp Đại hội đồng cổ đông thường niên năm 2020,RECOVERED_HTML,index.php/en/investor-relations/dai-hoi-co-dong/nam-2020/66-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020/334-thu-m-i-h-p-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020.html,/thu-moi-hop-dhdcd-thuong-nien-2020/
+post,TÀI LIỆU HỌP ĐHĐCĐ THƯỜNG NIÊN NĂM 2020,RECOVERED_HTML,index.php/en/investor-relations/dai-hoi-co-dong/nam-2020/66-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020/331-tai-li-u-h-p-dhdcd-thu-ng-nien-nam-2020.html,/tai-lieu-hop-dhdcd-thuong-nien-2020/
+post,Thông báo số 22/DMCN-VP,RECOVERED_HTML,index.php/en/investor-relations/dai-hoi-co-dong/nam-2020/66-d-i-h-i-d-ng-c-dong-thu-ng-nien-nam-2020/325-thong-bao-s-22-dmcn-vp.html,/thong-bao-so-22-dmcn-vp/
+document,Báo cáo tài chính Quý I năm 2018,RECOVERED_LOCAL,https://drive.google.com/file/d/1RSrk-wNBhlrNoKp5hO8rjBeG_msM4SeI/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-quy-1-2018/
+document,Báo cáo tài chính Quý II năm 2018,RECOVERED_LOCAL,https://drive.google.com/file/d/1yRd3itiTQ3m9lzcATzTKCwOX7YiEGLJf/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-quy-2-2018/
+document,Báo cáo tài chính 6 tháng đầu năm 2018,RECOVERED_LOCAL,https://drive.google.com/file/d/1UVRto2l5CEKTI3chL9JzNK2P45gA5s0w/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-6-thang-2018/
+document,Báo cáo tài chính Quý III năm 2018 (đính chính),RECOVERED_LOCAL,https://drive.google.com/file/d/16GYUskAK9IvZBQt8g7VLdmf21umVVca-/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-quy-3-2018-dinh-chinh/
+document,Báo cáo tài chính Quý IV năm 2018,RECOVERED_PUBLIC_INDEX,https://drive.google.com/file/d/1ZAGbIEuNI-xq6_DztTnW26AOfYWN5jyB/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-quy-4-2018/
+document,Báo cáo tài chính năm 2018 (kiểm toán),CONFIRMED_FILE_PENDING,https://drive.google.com/file/d/19NeBPVr6s0-dwNB6bKsEYuCQAKtnEDe6/view?usp=sharing,/tai-lieu/bao-cao-tai-chinh-kiem-toan-2018/
+document,Báo cáo quản trị công ty năm 2018,RECOVERED_PUBLIC_INDEX,index.php/en/investor-relations/bao-cao-h-i-d-ng-qu-n-tr/nam-2018.html,/tai-lieu/bao-cao-quan-tri-cong-ty-2018/
+document,Báo cáo thường niên 2016,RECOVERED_PUBLIC_INDEX,https://drive.google.com/file/d/0B-9Rk5Z1vEM3YTdfSVJkREFNSG8/view?usp=sharing,/tai-lieu/bao-cao-thuong-nien-2016/
+document,Báo cáo thường niên 2018,CONFIRMED_FILE_PENDING,https://drive.google.com/file/d/1HkbZsnbZ4XzDmJW6m5PQHzdke75I5m3o/view?usp=sharing,/tai-lieu/bao-cao-thuong-nien-2018/
+document,Báo cáo thường niên 2019,CONFIRMED_FILE_PENDING,https://drive.google.com/file/d/1wNxDnmzagRibHikaf23IUQ6kaMiw4JIK/view?usp=sharing,/tai-lieu/bao-cao-thuong-nien-2019/
+document,Điều lệ tổ chức và hoạt động năm 2018,RECOVERED_PUBLIC_INDEX,https://drive.google.com/file/d/1TPTBASxP711gT-jWICAOWaiCXSrUO2-r/view?usp=sharing,/tai-lieu/dieu-le-to-chuc-va-hoat-dong-2018/
+document,Thư mời họp ĐHĐCĐ thường niên năm 2020,RECOVERED_LOCAL,https://drive.google.com/file/d/1uiut9-RzJ8jxeLwR8MaeY2TSW93UR8tY/view?usp=sharing,/tai-lieu/thu-moi-hop-dhdcd-2020/
+document,Biên bản số 48/BB-DMCN và Nghị quyết số 49/NQ-DMCN ĐHĐCĐ thường niên 2020,RECOVERED_PUBLIC_INDEX,https://drive.google.com/open?id=1r9utbIV0WkK_4IKoZqyX-5zdXcDCF_k1,/tai-lieu/bien-ban-nghi-quyet-dhdcd-2020/

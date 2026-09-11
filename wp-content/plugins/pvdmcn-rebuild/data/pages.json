@@ -1,0 +1,453 @@
+[
+  {
+    "key": "home",
+    "title": "Trang chủ",
+    "slug": "trang-chu",
+    "parent_key": "",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en.html",
+    "source_urls": [],
+    "content_html": "",
+    "excerpt": ""
+  },
+  {
+    "key": "about",
+    "title": "Giới thiệu",
+    "slug": "gioi-thieu",
+    "parent_key": "",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/about.html",
+    "source_urls": [
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf",
+      "https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0"
+    ],
+    "content_html": "<h2>Thông tin khái quát</h2>\n<p>Công ty Cổ phần Hóa phẩm Dầu khí DMC - Miền Bắc có tên tiếng Anh là DMC – Northern Petroleum Chemicals Joint Stock Company, mã số doanh nghiệp 0102631910. Báo cáo thường niên 2023 ghi vốn điều lệ đăng ký 40 tỷ đồng, trụ sở tại thôn Tế Xuyên, xã Đình Xuyên, huyện Gia Lâm, Hà Nội.</p>\n<h2>Quá trình hình thành và phát triển</h2>\n<ul><li>Tháng 12/1990: tiền thân là Xí nghiệp Dung dịch khoan Dầu khí, hình thành sau khi DMC tiếp nhận nhà máy sản xuất xi măng lò đứng Cống Thôn.</li><li>19/01/2006: chuyển thành Chi nhánh CTCP Dung dịch khoan và Hóa phẩm Dầu khí tại Yên Viên.</li><li>25/01/2007: chuyển thành Công ty TNHH MTV DMC - Yên Viên.</li><li>21/04/2008: sáp nhập vào Công ty TNHH MTV DMC - Hà Nội.</li><li>22/04/2009: đổi tên thành Công ty TNHH MTV Hóa phẩm Dầu khí DMC - Miền Bắc.</li><li>06/06/2011: chuyển đổi thành CTCP Hóa phẩm Dầu khí DMC - Miền Bắc.</li><li>13/11/2015: cổ phiếu PCN được chấp thuận niêm yết trên HNX.</li><li>18/12/2015: PCN có ngày giao dịch đầu tiên trên HNX.</li></ul>\n<h2>Lĩnh vực hoạt động</h2><p>Các tài liệu doanh nghiệp ghi nhận hoạt động kinh doanh hóa chất, hóa phẩm và vật tư phục vụ dầu khí; sản phẩm phục vụ lọc hóa dầu; sản xuất và mua bán hóa chất; vận tải hàng hóa đường bộ; xuất nhập khẩu các mặt hàng kinh doanh và một số lĩnh vực thương mại liên quan.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "news",
+    "title": "Tin tức",
+    "slug": "tin-tuc",
+    "parent_key": "",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/news.html",
+    "source_urls": [],
+    "content_html": "<p>Kho bài Joomla cũ chưa phục hồi được đầy đủ. Các bài còn dấu vết sẽ được nhập dần vào mục này.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "product",
+    "title": "Sản phẩm",
+    "slug": "san-pham",
+    "parent_key": "",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/component/content/indexd3b6.html?Itemid=271",
+    "source_urls": [
+      "https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf",
+      "https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115",
+      "https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0"
+    ],
+    "content_html": "<p>Cây sản phẩm này được giữ theo menu Joomla cũ. Các nhóm sản phẩm truyền thống được tài liệu PVChem và Petrovietnam ghi nhận gồm Barite, Bentonite, CaCO₃ và các hóa phẩm phục vụ hoạt động dầu khí; dữ liệu chi tiết từng mã hàng của website cũ hiện chưa phục hồi đủ.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "prod-main",
+    "title": "Sản phẩm chủ yếu",
+    "slug": "san-pham-chu-yeu",
+    "parent_key": "product",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/product/san-pham-chu-yeu.html",
+    "source_urls": [
+      "https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf",
+      "https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115"
+    ],
+    "content_html": "<h2>Nhóm sản phẩm truyền thống</h2><p>Tài liệu PVChem năm 2015 mô tả DMC Miền Bắc sản xuất các hóa chất, hóa phẩm cho ngành dầu khí và các ngành kinh tế khác gắn với nguồn nguyên liệu phía Bắc. Các sản phẩm được nêu trực tiếp gồm Barite, Bentonite và CaCO₃. Petrovietnam cũng ghi nhận nhà máy hóa phẩm của DMC Miền Bắc vận hành sản xuất Barite và Bentonite theo tiêu chuẩn quốc tế.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "prod-drilling",
+    "title": "Hóa chất dung dịch khoan",
+    "slug": "hoa-chat-dung-dich-khoan",
+    "parent_key": "product",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/product/hoachatdungdichkhoan.html",
+    "source_urls": [
+      "https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf",
+      "https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115",
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf"
+    ],
+    "content_html": "<p>Các nguồn chính thức ghi nhận DMC Miền Bắc sản xuất và kinh doanh hóa phẩm phục vụ khoan, thăm dò và khai thác dầu khí. Barite và Bentonite là hai nhóm sản phẩm truyền thống được nhắc lại trong tài liệu của PVChem và Petrovietnam; báo cáo thường niên 2023 cũng liệt kê hoạt động sản xuất dầu, mỡ làm thành phần cho dung dịch khoan và dịch vụ hỗ trợ khai thác dầu thô, khí tự nhiên.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "prod-refinery",
+    "title": "Sản phẩm lọc hóa dầu",
+    "slug": "san-pham-loc-hoa-dau",
+    "parent_key": "product",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/product/lochoadau.html",
+    "source_urls": [
+      "https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0"
+    ],
+    "content_html": "<p>Website cũ có một nhánh riêng cho sản phẩm lọc hóa dầu. Hồ sơ doanh nghiệp công khai xác nhận Công ty có hoạt động kinh doanh các sản phẩm phục vụ công nghiệp lọc hóa dầu; tên hàng chi tiết của trang Joomla cũ chưa được khôi phục nên bản demo tạm giữ đúng cấp mục và chỉ trình bày phạm vi hoạt động đã xác minh.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "prod-other",
+    "title": "Sản phẩm khác",
+    "slug": "san-pham-khac",
+    "parent_key": "product",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/product/sanphamkhac.html",
+    "source_urls": [
+      "https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0",
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf"
+    ],
+    "content_html": "<p>Ngoài hóa phẩm dầu khí, hồ sơ doanh nghiệp từng ghi nhận hoạt động kinh doanh phân bón, chất dẻo nguyên sinh và sản phẩm liên quan, cao su, nguyên vật liệu/vật tư phục vụ ngành giấy và sơn, cùng máy móc thiết bị cho khai khoáng và các ngành công nghiệp khác. Danh mục thương mại cụ thể có thể thay đổi theo từng thời kỳ.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "quality",
+    "title": "Quản lý chất lượng",
+    "slug": "quan-ly-chat-luong",
+    "parent_key": "",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/quality-control.html",
+    "source_urls": [
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf"
+    ],
+    "content_html": "<p>Bản gốc trang “Quality control” chưa phục hồi được body. Báo cáo thường niên 2023 cho biết định hướng của Công ty là ổn định sản xuất kinh doanh, nâng cao chất lượng dịch vụ cung cấp, cải tiến tổ chức - công nghệ và cam kết cung cấp sản phẩm/dịch vụ ổn định, đáp ứng yêu cầu chất lượng của khách hàng đồng thời giảm thiểu rủi ro về con người, tài sản và môi trường.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "activities",
+    "title": "Hoạt động",
+    "slug": "hoat-dong",
+    "parent_key": "",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/activities.html",
+    "source_urls": [],
+    "content_html": "<p>Cấu trúc mục Hoạt động được khôi phục từ menu Joomla cũ. Nội dung từng bài đang được phục dựng theo mức độ có nguồn.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "business",
+    "title": "Sản xuất kinh doanh",
+    "slug": "san-xuat-kinh-doanh",
+    "parent_key": "activities",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/activities/hoat-dong-sx-kd.html",
+    "source_urls": [
+      "https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115"
+    ],
+    "content_html": "<p>DMC Miền Bắc có lịch sử vận hành nhà máy hóa phẩm sản xuất Barite, Bentonite và các hóa phẩm truyền thống. Petrovietnam từng ghi nhận đơn vị cải tiến công nghệ sàng nguyên liệu, sửa chữa thiết bị và điều chỉnh tổ chức sản xuất nhằm tiết giảm chi phí; đồng thời tiếp tục cải tiến phụ gia cho sản phẩm chủ lực và phát triển sản phẩm mới.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party",
+    "title": "Đảng bộ Công ty",
+    "slug": "dang-bo-cong-ty",
+    "parent_key": "activities",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty.html",
+    "source_urls": [],
+    "content_html": "<p>Đã phục hồi được cấu trúc menu nhưng chưa có đủ nội dung gốc để tái dựng trang này.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party-company",
+    "title": "Đảng bộ Công ty DMC - MB",
+    "slug": "dang-bo-cong-ty-dmc-mb",
+    "parent_key": "party",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty/d-ng-b-cong-ty-dmc-mb.html",
+    "source_urls": [],
+    "content_html": "<p>URL và vị trí trong menu cũ đã phục hồi; body bài chưa có nguồn đủ chắc để dựng lại.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party-admin",
+    "title": "Chi bộ khối Hành chính",
+    "slug": "chi-bo-khoi-hanh-chinh",
+    "parent_key": "party",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-hanh-chinh.html",
+    "source_urls": [],
+    "content_html": "<p>URL và vị trí trong menu cũ đã phục hồi; body bài chưa có nguồn đủ chắc để dựng lại.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party-prof",
+    "title": "Chi bộ khối Nghiệp vụ",
+    "slug": "chi-bo-khoi-nghiep-vu",
+    "parent_key": "party",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-nghi-p-v.html",
+    "source_urls": [],
+    "content_html": "<p>URL và vị trí trong menu cũ đã phục hồi; body bài chưa có nguồn đủ chắc để dựng lại.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party-tech",
+    "title": "Chi bộ khối Kỹ thuật",
+    "slug": "chi-bo-khoi-ky-thuat",
+    "parent_key": "party",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-k-thu-t.html",
+    "source_urls": [],
+    "content_html": "<p>URL và vị trí trong menu cũ đã phục hồi; body bài chưa có nguồn đủ chắc để dựng lại.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "party-prod",
+    "title": "Chi bộ khối Sản xuất",
+    "slug": "chi-bo-khoi-san-xuat",
+    "parent_key": "party",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/d-ng-b-cong-ty/chi-b-kh-i-s-n-xu-t.html",
+    "source_urls": [],
+    "content_html": "<p>URL và vị trí trong menu cũ đã phục hồi; body bài chưa có nguồn đủ chắc để dựng lại.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "culture",
+    "title": "Văn hóa thể thao",
+    "slug": "van-hoa-the-thao",
+    "parent_key": "activities",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/vhtt.html",
+    "source_urls": [],
+    "content_html": "<p>Đã phục hồi cấu trúc mục; nội dung gốc đang thiếu.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "union",
+    "title": "Công đoàn cơ sở",
+    "slug": "cong-doan-co-so",
+    "parent_key": "culture",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/vhtt/hdcd.html",
+    "source_urls": [],
+    "content_html": "<p>URL cũ đã phục hồi; body chưa tìm được.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "veterans",
+    "title": "Hội Cựu chiến binh",
+    "slug": "hoi-cuu-chien-binh",
+    "parent_key": "culture",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/vhtt/ho-t-d-ng-c-a-h-i-c-u-chi-n-binh.html",
+    "source_urls": [],
+    "content_html": "<p>URL cũ đã phục hồi; body chưa tìm được.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "youth",
+    "title": "Đoàn thanh niên",
+    "slug": "doan-thanh-nien",
+    "parent_key": "culture",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/activities/vhtt/hoat-dong-tn.html",
+    "source_urls": [],
+    "content_html": "<p>URL cũ đã phục hồi; body chưa tìm được.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "ir",
+    "title": "Quan hệ cổ đông",
+    "slug": "quan-he-co-dong",
+    "parent_key": "",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations.html",
+    "source_urls": [],
+    "content_html": "<p>Kho tài liệu cổ đông được khôi phục từ Google Drive cũ, HNX, CafeF và các nguồn công bố. Tài liệu đã có file gốc sẽ ưu tiên bản gốc.</p>[pvdmcn_documents limit=\"20\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "annual",
+    "title": "Báo cáo thường niên",
+    "slug": "bao-cao-thuong-nien",
+    "parent_key": "ir",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations/bao-cao-thuong-nien.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Báo cáo thường niên\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "governance",
+    "title": "Báo cáo tình hình quản trị",
+    "slug": "bao-cao-quan-tri",
+    "parent_key": "ir",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations/bao-cao-h-i-d-ng-qu-n-tr.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Báo cáo quản trị\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "financial",
+    "title": "Báo cáo tài chính",
+    "slug": "bao-cao-tai-chinh",
+    "parent_key": "ir",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations/bao-cao-tai-chinh.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Báo cáo tài chính\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "agm",
+    "title": "Đại hội đồng cổ đông",
+    "slug": "dai-hoi-dong-co-dong",
+    "parent_key": "ir",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations/dai-hoi-co-dong.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Đại hội đồng cổ đông\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "stock",
+    "title": "Cổ phiếu niêm yết",
+    "slug": "co-phieu-niem-yet",
+    "parent_key": "ir",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/investor-relations/c-phi-u-niem-y-t.html",
+    "source_urls": [
+      "https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC"
+    ],
+    "content_html": "<p>Mã chứng khoán PCN từng giao dịch trên HNX và sau đó UPCoM. Hồ sơ HNX hiện ghi trạng thái hủy giao dịch/hạn chế giao dịch. Mục này được giữ lại để bảo toàn cấu trúc lịch sử của website cũ.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "audit",
+    "title": "Hợp đồng kiểm toán",
+    "slug": "hop-dong-kiem-toan",
+    "parent_key": "ir",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/investor-relations/h-p-d-ng-ki-m-toan.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Hợp đồng kiểm toán\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "customers",
+    "title": "Khách hàng",
+    "slug": "khach-hang",
+    "parent_key": "",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "",
+    "source_urls": [],
+    "content_html": "<p>Menu khách hàng/đối tác được phục hồi từ Joomla cũ; danh sách logo và mô tả gốc chưa được phục hồi đủ.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "customers-external",
+    "title": "Đối tác nước ngoài",
+    "slug": "doi-tac-nuoc-ngoai",
+    "parent_key": "customers",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/customers/external-partners.html",
+    "source_urls": [],
+    "content_html": "<p>Đã phục hồi URL/menu; chưa có đủ bằng chứng để dựng lại danh sách gốc.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "customers-domestic",
+    "title": "Đối tác trong nước",
+    "slug": "doi-tac-trong-nuoc",
+    "parent_key": "customers",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/customers/domestic-partners.html",
+    "source_urls": [],
+    "content_html": "<p>Đã phục hồi URL/menu; chưa có đủ bằng chứng để dựng lại danh sách gốc.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "customers-key",
+    "title": "Khách hàng tiêu biểu",
+    "slug": "khach-hang-tieu-bieu",
+    "parent_key": "customers",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/customers/khach-hang-tieu-bieu.html",
+    "source_urls": [],
+    "content_html": "<p>Đã phục hồi URL/menu; chưa có đủ bằng chứng để dựng lại danh sách gốc.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "services",
+    "title": "Dịch vụ",
+    "slug": "dich-vu",
+    "parent_key": "",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/dich-vu.html",
+    "source_urls": [
+      "https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf",
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf"
+    ],
+    "content_html": "<p>Tài liệu PVChem năm 2015 ghi nhận DMC Miền Bắc cung cấp dịch vụ logistics ở khu vực phía Bắc. Báo cáo thường niên 2023 cũng liệt kê vận tải hàng hóa bằng đường bộ và hoạt động hỗ trợ khai thác dầu thô, khí tự nhiên trong phạm vi ngành nghề kinh doanh.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "logistics",
+    "title": "Một số hoạt động logistics",
+    "slug": "hoat-dong-logistics",
+    "parent_key": "services",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/dich-vu/hinh-anh-logistic.html",
+    "source_urls": [
+      "https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf"
+    ],
+    "content_html": "<p>Website cũ có trang hình ảnh logistics. Phần mô tả được dựng lại từ tài liệu PVChem xác nhận DMC Miền Bắc cung cấp dịch vụ logistics tại khu vực phía Bắc. Các ảnh gốc còn sót từ HTTrack sẽ tiếp tục được phân loại để bổ sung.</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://pvchem.com.vn/uploaded/bao%20cao%20thuong%20nien%202015.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  },
+  {
+    "key": "rules",
+    "title": "Quy chế, nội quy",
+    "slug": "quy-che-noi-quy",
+    "parent_key": "",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/n-i-h.html",
+    "source_urls": [],
+    "content_html": "<p>Mục quy chế/nội quy được giữ theo cấu trúc website cũ.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "charter",
+    "title": "Điều lệ",
+    "slug": "dieu-le",
+    "parent_key": "rules",
+    "status": "RECOVERED_STRUCTURE",
+    "old_url": "index.php/en/n-i-h/di-u-l.html",
+    "source_urls": [],
+    "content_html": "[pvdmcn_documents type=\"Điều lệ / Quy chế\"]",
+    "excerpt": ""
+  },
+  {
+    "key": "legacy-2019",
+    "title": "Năm 2019",
+    "slug": "nam-2019",
+    "parent_key": "",
+    "status": "MISSING_BODY",
+    "old_url": "index.php/en/nam-2019.html",
+    "source_urls": [],
+    "content_html": "<p>Đây là mục cấp cao còn sót trong menu Joomla cũ. Chưa xác định được chức năng/nội dung nguyên bản nên tạm giữ để bảo toàn cấu trúc.</p>",
+    "excerpt": ""
+  },
+  {
+    "key": "contact",
+    "title": "Liên hệ",
+    "slug": "lien-he",
+    "parent_key": "",
+    "status": "RECONSTRUCTED",
+    "old_url": "index.php/en/contact.html",
+    "source_urls": [
+      "https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf",
+      "https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC"
+    ],
+    "content_html": "<h2>Công ty Cổ phần Hóa phẩm Dầu khí DMC - Miền Bắc</h2><p><strong>Địa chỉ theo hồ sơ 2023:</strong> Thôn Tế Xuyên, xã Đình Xuyên, huyện Gia Lâm, Hà Nội<br><strong>Điện thoại:</strong> (024) 38271483<br><strong>Fax:</strong> (024) 38780902<br><strong>Email:</strong> dmcmb@pvdmcn.com.vn<br><strong>Mã số doanh nghiệp:</strong> 0102631910</p><p class=\"pvdmcn-source-note\"><em>Nội dung phục dựng từ tài liệu chính thức; không khẳng định là nguyên văn website Joomla cũ.</em> <a href=\"https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf\" target=\"_blank\" rel=\"noopener\">Nguồn</a> <a href=\"https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC\" target=\"_blank\" rel=\"noopener\">Nguồn</a></p>",
+    "excerpt": ""
+  }
+]
