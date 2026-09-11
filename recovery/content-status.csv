@@ -8,7 +8,7 @@ prod-drilling,Hóa chất dung dịch khoan,page,RECONSTRUCTED,https://pvchem.co
 prod-refinery,Sản phẩm lọc hóa dầu,page,RECONSTRUCTED,https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0
 prod-other,Sản phẩm khác,page,RECONSTRUCTED,https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=9923&ID1=1&ZID1=0 | https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf
 quality,Quản lý chất lượng,page,RECONSTRUCTED,https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf
-activities,Hoạt động,page,RECOVERED_STRUCTURE,
+activities,Hoạt động,page,RECONSTRUCTED,https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf | https://www.pvn.vn/dmc-no-luc-sang-tao-2996
 business,Sản xuất kinh doanh,page,RECONSTRUCTED,https://www.pvn.vn/tong-cong-ty-dung-dich-khoan-va-hoa-pham-dau-khi-uu-tien-dau-tu-khoa-hoc-cong-nghe-3115
 party,Đảng bộ Công ty,page,MISSING_BODY,
 party-company,Đảng bộ Công ty DMC - MB,page,MISSING_BODY,
@@ -45,13 +45,22 @@ fs-2018-q1,Báo cáo tài chính Quý I năm 2018,document,RECOVERED_LOCAL,
 fs-2018-q2,Báo cáo tài chính Quý II năm 2018,document,RECOVERED_LOCAL,
 fs-2018-h1,Báo cáo tài chính 6 tháng đầu năm 2018,document,RECOVERED_LOCAL,
 fs-2018-q3-corr,Báo cáo tài chính Quý III năm 2018 (đính chính),document,RECOVERED_LOCAL,https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC
-fs-2018-q4,Báo cáo tài chính Quý IV năm 2018,document,RECOVERED_PUBLIC_INDEX,https://cafef.vn/du-lieu/pcn-1687312/pcn-giai-trinh-bao-cao-tai-chinh-quy-42018.chn
+fs-2018-q4,Báo cáo tài chính Quý IV năm 2018,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1687312/pcn-giai-trinh-bao-cao-tai-chinh-quy-42018.chn | https://cafefnew.mediacdn.vn/download/210119/pcn-bao-cao-tai-chinh-quy-42018_2.pdf
 fs-2018-audited,Báo cáo tài chính năm 2018 (kiểm toán),document,CONFIRMED_FILE_PENDING,https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC
-gov-2018,Báo cáo quản trị công ty năm 2018,document,RECOVERED_PUBLIC_INDEX,https://cafef.vn/du-lieu/pcn-1318066/pcn-bao-cao-quan-tri-cong-ty-nam-2018.chn
+gov-2018,Báo cáo quản trị công ty năm 2018,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1318066/pcn-bao-cao-quan-tri-cong-ty-nam-2018.chn | https://cafefnew.mediacdn.vn/download/250119/pcn-bao-cao-quan-tri-cong-ty-nam-2018.pdf
 annual-2016,Báo cáo thường niên 2016,document,RECOVERED_PUBLIC_INDEX,https://cafef.vn/du-lieu/pcn-1124062/pcn-bao-cao-thuong-nien-2016.chn
 annual-2018,Báo cáo thường niên 2018,document,CONFIRMED_FILE_PENDING,https://portal.hnx.vn/vi-vn/ModuleIssuer/UC_Issuer/Details/PCN/UC
 annual-2019,Báo cáo thường niên 2019,document,CONFIRMED_FILE_PENDING,https://simplize.vn/co-phieu/PCN/bao-cao
 annual-2023,Báo cáo thường niên 2023,document,RECOVERED_PUBLIC_FILE,https://file.fpts.com.vn/FileStore2/File/2024/04/19/PCN_2024-4-19_00da403_BCTN_DMC_final_da_ky_so.pdf
 charter-2018,Điều lệ tổ chức và hoạt động năm 2018,document,RECOVERED_PUBLIC_INDEX,https://cafef.vn/du-lieu/pcn-1098181/pcn-dieu-le-to-chuc-va-hoat-dong-cua-cong-ty.chn
 agm-2020-invite,Thư mời họp ĐHĐCĐ thường niên năm 2020,document,RECOVERED_LOCAL,https://cafef.vn/du-lieu/pcn-1395073/pcn-tai-lieu-hop-dai-hoi-dong-co-dong.chn
-agm-2020-resolution,Biên bản số 48/BB-DMCN và Nghị quyết số 49/NQ-DMCN ĐHĐCĐ thường niên 2020,document,RECOVERED_PUBLIC_INDEX,https://cafef.vn/du-lieu/pcn-1528039/pcn-nghi-quyet-dai-hoi-dong-co-dong-thuong-nien-nam-2020.chn
+agm-2020-resolution,Biên bản số 48/BB-DMCN và Nghị quyết số 49/NQ-DMCN ĐHĐCĐ thường niên 2020,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1528039/pcn-nghi-quyet-dai-hoi-dong-co-dong-thuong-nien-nam-2020.chn | https://cafefnew.mediacdn.vn/download/240420/pcn-nghi-quyet-dai-hoi-dong-co-dong-thuong-nien-nam-2020.pdf
+fs-2019-audited,Báo cáo tài chính năm 2019 (kiểm toán),document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-982945/pcn-bao-cao-tai-chinh-nam-2019.chn | https://cafefnew.mediacdn.vn/download/010420/pcn-bao-cao-tai-chinh-nam-2019.pdf
+annual-2020,Báo cáo thường niên 2020,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1916896/pcn-bao-cao-thuong-nien-2020.chn | https://cafef1.mediacdn.vn/download/191223/pcn-bao-cao-thuong-nien-2020-0-495539.pdf
+annual-2021,Báo cáo thường niên 2021,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1917205/pcn-bao-cao-thuong-nien-2021.chn | https://cafef1.mediacdn.vn/download/201223/pcn-bao-cao-thuong-nien-2021-0-495570.pdf
+annual-2022,Báo cáo thường niên 2022,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1917206/pcn-bao-cao-thuong-nien-2022.chn | https://cafef1.mediacdn.vn/download/201223/pcn-bao-cao-thuong-nien-2022-0-495571.pdf
+gov-2019,Báo cáo quản trị công ty năm 2019,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1918214/pcn-bao-cao-quan-tri-cong-ty-nam-2019.chn | https://cafef1.mediacdn.vn/download/221223/pcn-bao-cao-quan-tri-cong-ty-nam-2019-0-495813.pdf
+gov-2020,Báo cáo quản trị công ty năm 2020,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1918210/pcn-bao-cao-quan-tri-cong-ty-nam-2020.chn | https://cafef1.mediacdn.vn/download/221223/pcn-bao-cao-quan-tri-cong-ty-nam-2020-0-495820.pdf
+gov-2021,Báo cáo quản trị công ty năm 2021,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-492767/pcn-bao-cao-quan-tri-cong-ty-nam-2021.chn | https://cafefnew.mediacdn.vn/download/120422/pcn-bao-cao-quan-tri-cong-ty-nam-2021-0-423556.pdf
+gov-2022,Báo cáo quản trị công ty năm 2022,document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1918991/pcn-bao-cao-quan-tri-cong-ty-nam-2022.chn | https://cafef1.mediacdn.vn/download/251223/pcn-bao-cao-quan-tri-cong-ty-nam-2022-0-495896.pdf
+fs-2022-audited,Báo cáo tài chính năm 2022 (kiểm toán),document,RECOVERED_PUBLIC_FILE,https://cafef.vn/du-lieu/pcn-1921273/pcn-bao-cao-tai-chinh-nam-2022.chn | https://cafef1.mediacdn.vn/download/271223/pcn-bao-cao-tai-chinh-nam-2022-0-496227.pdf

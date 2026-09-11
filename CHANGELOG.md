@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0
+
+- Đưa Investor Relations về đúng logic site Joomla cũ: tiêu đề tài liệu trỏ thẳng tới Google Drive khi có link Drive đã phục hồi.
+- Không chép nội dung dài của PDF vào bài WordPress; mỗi mục tài liệu chỉ còn tiêu đề + link.
+- Bài “TÀI LIỆU HỌP ĐHĐCĐ THƯỜNG NIÊN NĂM 2020” giữ 15 link Google Drive gốc.
+- Bổ sung link Drive đã phục hồi cho BCTN 2017, Điều lệ sửa đổi 2019, Q1/2019 và giải trình hủy niêm yết.
+- CafeF/HNX/local Media chỉ còn là fallback khi không có Drive.
+- Archive, shortcode và homepage mở tài liệu trực tiếp thay vì qua trang trung gian.
+
 ## 0.4.0
 
 - Đưa 5 file Google Drive người quản trị cứu được vào repo và tự nhập vào Media Library.

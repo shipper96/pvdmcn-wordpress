@@ -12,3 +12,11 @@ function pvdmcn_demo_docs($limit=10){
  if(!post_type_exists('pvdmcn_document')) return [];
  return get_posts(['post_type'=>'pvdmcn_document','post_status'=>'publish','posts_per_page'=>$limit,'orderby'=>'date','order'=>'DESC']);
 }
+
+function pvdmcn_demo_doc_url($id){
+ if(function_exists('pvdmcn_document_url_from_post')) return pvdmcn_document_url_from_post($id);
+ $u=get_post_meta($id,'_pvdmcn_drive_url',true);
+ if(!$u) $u=get_post_meta($id,'_pvdmcn_primary_url',true);
+ if(!$u) $u=get_post_meta($id,'_pvdmcn_fallback_url',true);
+ return $u?:get_permalink($id);
+}

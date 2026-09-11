@@ -4,8 +4,8 @@ Repo phục dựng `pvdmcn.com.vn` trên WordPress, dựa trên crawl Joomla cũ
 
 ## Cấu trúc
 
-- `wp-content/themes/pvdmcn-demo/` — theme phục dựng giao diện Joomla cũ, hiện version 0.4.
-- `wp-content/plugins/pvdmcn-rebuild/` — content model + dữ liệu phục dựng + sync, version 0.4.
+- `wp-content/themes/pvdmcn-demo/` — theme phục dựng giao diện Joomla cũ, hiện version 0.6
+- `wp-content/plugins/pvdmcn-rebuild/` — content model + dữ liệu phục dựng + sync, version 0.6
 - `recovery/` — bằng chứng crawl và manifest, không dùng trực tiếp ở frontend.
 
 ## Deploy
@@ -33,3 +33,7 @@ wp cache flush
 ## Lưu ý
 
 Bản demo nên tiếp tục để `blog_public=0` cho đến khi nội dung được duyệt và chuyển sang tên miền chính.
+
+## Quy tắc tài liệu từ v0.6
+
+Các mục Investor Relations không chứa bản chép nội dung PDF. Khi link Google Drive cũ đã được phục hồi, tiêu đề tài liệu trỏ trực tiếp đến Drive giống website Joomla cũ. File local/CafeF/HNX chỉ dùng làm fallback.

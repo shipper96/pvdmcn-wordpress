@@ -10,3 +10,11 @@ Các nguồn chính được dùng để phục dựng nội dung không còn tr
 - HTTrack crawl của `pvdmcn.com.vn`: cây URL/menu, tiêu đề còn sót, Google Drive IDs, logo, banner và hình hoạt động.
 
 Nguyên tắc: nếu body Joomla gốc không còn, nội dung được đánh `RECONSTRUCTED`; không gắn nhãn `RECOVERED` cho nội dung viết lại.
+
+
+## Bổ sung v0.5
+
+- CafeF/HNX direct PDF: Báo cáo quản trị 2019–2022.
+- CafeF/HNX direct PDF: Báo cáo thường niên 2020–2022.
+- CafeF/HNX direct PDF: BCTC kiểm toán 2019 và 2022.
+- BCTN PCN 2023 được đối chiếu cả text và ảnh trang 4–6 để phục dựng ngành nghề, cơ cấu tổ chức và định hướng phát triển.

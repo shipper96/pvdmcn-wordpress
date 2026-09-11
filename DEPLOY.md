@@ -7,7 +7,7 @@ wp-content/themes/pvdmcn-demo/
 wp-content/plugins/pvdmcn-rebuild/
 ```
 
-Plugin v0.4 có auto-sync theo version. Sau Git deploy, lần đầu một quản trị viên mở WP Admin, plugin sẽ tự đồng bộ dữ liệu mới một lần.
+Plugin v0.6 có auto-sync theo version. Sau Git deploy, lần đầu một quản trị viên mở WP Admin, plugin sẽ tự đồng bộ dữ liệu mới một lần.
 
 Khuyến nghị vẫn chạy post-deploy bằng WP-CLI nếu workflow GitHub cho phép:
 

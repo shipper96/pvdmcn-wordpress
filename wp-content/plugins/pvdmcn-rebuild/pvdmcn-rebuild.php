@@ -2,12 +2,12 @@
 /**
  * Plugin Name: PVDMCN Rebuild Toolkit
  * Description: Đồng bộ cấu trúc, nội dung phục dựng và tài liệu lịch sử cho bản rebuild pvdmcn.com.vn.
- * Version: 0.4.0
+ * Version: 0.6.0
  * Author: PVDMCN Recovery Project
  */
 if (!defined('ABSPATH')) exit;
 
-define('PVDMCN_REBUILD_VERSION', '0.4.0');
+define('PVDMCN_REBUILD_VERSION', '0.6.0');
 define('PVDMCN_REBUILD_DIR', plugin_dir_path(__FILE__));
 
 function pvdmcn_register_content_types() {
@@ -125,26 +125,55 @@ function pvdmcn_import_local_file($rel,$title) {
     return (int)$id;
 }
 
+function pvdmcn_primary_document_url($row) {
+    // Giữ đúng logic site cũ: nếu đã khôi phục được link Google Drive thì ưu tiên link đó.
+    $old = $row['old_url'] ?? '';
+    if ($old && strpos($old, 'drive.google.com') !== false) return $old;
+    if (!empty($row['file_url'])) return $row['file_url'];
+    return '';
+}
+
+function pvdmcn_document_url_from_post($post_id) {
+    $drive = get_post_meta($post_id, '_pvdmcn_drive_url', true);
+    if ($drive) return $drive;
+    $primary = get_post_meta($post_id, '_pvdmcn_primary_url', true);
+    if ($primary) return $primary;
+    $fallback = get_post_meta($post_id, '_pvdmcn_fallback_url', true);
+    return $fallback ?: get_permalink($post_id);
+}
+
 function pvdmcn_sync_documents() {
     $count=0;
     foreach(pvdmcn_json('documents.json') as $row) {
-        $id=pvdmcn_find_managed($row['key'],'pvdmcn_document');
-        $attachment_id=0; $file_url=$row['file_url'] ?? '';
+        $attachment_id=0;
+        $fallback_url=$row['file_url'] ?? '';
         if (!empty($row['local_file'])) {
             $attachment_id=pvdmcn_import_local_file($row['local_file'],$row['title']);
-            if ($attachment_id) $file_url=wp_get_attachment_url($attachment_id);
+            if ($attachment_id) $fallback_url=wp_get_attachment_url($attachment_id);
         }
-        $body='';
-        if (!empty($row['description'])) $body.='<p>'.esc_html($row['description']).'</p>';
-        if ($file_url) $body.='<p><a class="pvdmcn-document-link" href="'.esc_url($file_url).'" target="_blank" rel="noopener">Mở tài liệu</a></p>';
-        if (!empty($row['source_url'])) $body.='<p class="pvdmcn-source">Nguồn đối chiếu: <a href="'.esc_url($row['source_url']).'" target="_blank" rel="noopener">xem nguồn</a></p>';
-        $payload=['key'=>$row['key'],'title'=>$row['title'],'slug'=>$row['slug'],'date'=>$row['date'] ?? '',
+        $primary_url=pvdmcn_primary_document_url($row);
+        if (!$primary_url) $primary_url=$fallback_url;
+
+        // Không chép nội dung PDF vào WordPress. Bài tài liệu chỉ giữ đúng một link.
+        $body=$primary_url
+            ? '<p><a class="pvdmcn-document-link" href="'.esc_url($primary_url).'" target="_blank" rel="noopener">'.esc_html($row['title']).'</a></p>'
+            : '';
+
+        $payload=[
+            'key'=>$row['key'],'title'=>$row['title'],'slug'=>$row['slug'],'date'=>$row['date'] ?? '',
             'status'=>$row['status'] ?? 'UNKNOWN','old_url'=>$row['old_url'] ?? '',
-            'source_urls'=>array_values(array_filter([$row['source_url'] ?? '',$row['old_url'] ?? ''])),
-            'content_html'=>$body,'excerpt'=>($row['status'] ?? '').(!empty($row['year'])?' · '.$row['year']:'')];
+            'source_urls'=>array_values(array_filter([$row['old_url'] ?? '',$row['file_url'] ?? '',$row['source_url'] ?? ''])),
+            'content_html'=>$body,'excerpt'=>''
+        ];
         $newid=pvdmcn_upsert_post($payload,'pvdmcn_document'); if (!$newid) continue;
         if ($attachment_id) update_post_meta($newid,'_pvdmcn_attachment_id',$attachment_id);
-        if ($file_url) update_post_meta($newid,'_pvdmcn_file_url',$file_url);
+        if ($primary_url) update_post_meta($newid,'_pvdmcn_primary_url',$primary_url);
+        if ($fallback_url) update_post_meta($newid,'_pvdmcn_fallback_url',$fallback_url);
+        if (!empty($row['old_url']) && strpos($row['old_url'],'drive.google.com') !== false) {
+            update_post_meta($newid,'_pvdmcn_drive_url',$row['old_url']);
+        } else {
+            delete_post_meta($newid,'_pvdmcn_drive_url');
+        }
         if (!empty($row['type'])) { pvdmcn_ensure_term('pvdmcn_doc_type',$row['type']); wp_set_object_terms($newid,[$row['type']],'pvdmcn_doc_type',false); }
         if (!empty($row['year'])) { pvdmcn_ensure_term('pvdmcn_doc_year',(string)$row['year']); wp_set_object_terms($newid,[(string)$row['year']],'pvdmcn_doc_year',false); }
         $count++;
@@ -183,9 +212,24 @@ add_shortcode('pvdmcn_documents',function($atts){
     if(count($tax)>1) $tax['relation']='AND';
     $q=new WP_Query(['post_type'=>'pvdmcn_document','post_status'=>'publish','posts_per_page'=>(int)$a['limit'],'orderby'=>'date','order'=>'DESC','tax_query'=>$tax?:null]);
     ob_start(); echo '<ul class="documents-list">';
-    while($q->have_posts()){ $q->the_post(); echo '<li><span class="doc-date">'.esc_html(get_the_date('d/m/Y')).'</span><a href="'.esc_url(get_permalink()).'">'.esc_html(get_the_title()).'</a></li>'; }
+    while($q->have_posts()){
+        $q->the_post();
+        $url=pvdmcn_document_url_from_post(get_the_ID());
+        echo '<li><a href="'.esc_url($url).'" target="_blank" rel="noopener">'.esc_html(get_the_title()).'</a></li>';
+    }
     wp_reset_postdata(); echo '</ul>'; return ob_get_clean();
 });
+
+// Nếu ai truy cập permalink của CPT tài liệu, chuyển thẳng sang tài liệu gốc.
+add_action('template_redirect',function(){
+    if (!is_singular('pvdmcn_document')) return;
+    $url=pvdmcn_document_url_from_post(get_queried_object_id());
+    if ($url && $url !== get_permalink(get_queried_object_id())) {
+        wp_redirect($url,302,'PVDMCN-Rebuild');
+        exit;
+    }
+});
+
 
 add_action('admin_menu',function(){ add_management_page('PVDMCN Rebuild','PVDMCN Rebuild','manage_options','pvdmcn-rebuild','pvdmcn_admin'); });
 function pvdmcn_admin(){
