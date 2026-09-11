@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.7.0
+
+- Thêm menu **PVDMCN** riêng trong WordPress Admin.
+- Thêm màn hình **PVDMCN → Cấu hình giao diện** để chỉnh trực tiếp trong CMS:
+  - logo;
+  - 3 ảnh slideshow;
+  - tên công ty, địa chỉ, điện thoại, fax, email, website, link Mail;
+  - dòng credit footer;
+  - tiêu đề các khối Tin tức, Tài liệu, Product, Investor Relations, Activities;
+  - bật/tắt và sửa dòng cảnh báo bản demo.
+- Theme đọc các cấu hình này từ database; Git pull không ghi đè chúng.
+- Thêm meta box **PVDMCN · Link tài liệu** trong từng Tài liệu PVDMCN. URL nhập thủ công luôn ưu tiên Drive/fallback từ seed.
+- Bảo vệ nội dung CMS khỏi auto-sync: nếu trang/bài đã được sửa thủ công, các bản Git sau không tự ghi đè nội dung đó.
+- Bảo vệ menu WordPress khỏi auto-sync. Menu hiện có được giữ nguyên; chỉ `--force-menu` mới dựng lại menu từ seed.
+- `wp pvdmcn sync` mặc định an toàn với CMS. Có thể dùng `--force-content` và/hoặc `--force-menu` khi thực sự muốn ghi đè.
+- Giữ nguyên logic v0.6: tài liệu ưu tiên mở trực tiếp Google Drive, không chép nội dung PDF dài vào WordPress.
+
+
 ## 0.6.0
 
 - Đưa Investor Relations về đúng logic site Joomla cũ: tiêu đề tài liệu trỏ thẳng tới Google Drive khi có link Drive đã phục hồi.

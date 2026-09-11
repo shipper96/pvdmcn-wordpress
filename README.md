@@ -1,39 +1,68 @@
 # PVDMCN WordPress Rebuild
 
-Repo phục dựng `pvdmcn.com.vn` trên WordPress, dựa trên crawl Joomla cũ, các file Google Drive còn cứu được và tài liệu công bố chính thức.
+Bản phục dựng `pvdmcn.com.vn` trên WordPress từ cấu trúc Joomla cũ, HTTrack, Google Drive và các tài liệu doanh nghiệp còn lưu trữ.
 
-## Cấu trúc
+## Kiến trúc
 
-- `wp-content/themes/pvdmcn-demo/` — theme phục dựng giao diện Joomla cũ, hiện version 0.6
-- `wp-content/plugins/pvdmcn-rebuild/` — content model + dữ liệu phục dựng + sync, version 0.6
-- `recovery/` — bằng chứng crawl và manifest, không dùng trực tiếp ở frontend.
+- `wp-content/themes/pvdmcn-demo/`: giao diện phục dựng gần site Joomla cũ.
+- `wp-content/plugins/pvdmcn-rebuild/`: content model, seed/recovery data, document links và CMS settings.
+- `recovery/`: bằng chứng phục hồi, URL map và ghi chú nguồn.
 
-## Deploy
+## Từ v0.7: CMS là nơi sửa nội dung
 
-Sau khi GitHub deploy code mới vào WordPress demo, plugin tự kiểm tra version khi quản trị viên mở WP Admin. Nếu version dữ liệu thay đổi, nó tự chạy sync một lần.
+Đăng nhập WordPress tại:
 
-Có thể ép sync bằng WP-CLI:
+```text
+https://demo.gamen.pro/wp-admin/
+```
+
+### Có thể sửa trực tiếp trong CMS
+
+- **PVDMCN → Cấu hình giao diện**: logo, slideshow, footer, thông tin công ty, tiêu đề các block trang chủ.
+- **Pages**: nội dung Giới thiệu, Sản phẩm, Dịch vụ, Hoạt động…
+- **Posts**: tin tức/công bố.
+- **Tài liệu PVDMCN**: tiêu đề tài liệu, năm/loại và `Link tài liệu hiển thị`.
+- **Appearance → Menus**: menu.
+- **Media**: ảnh/file.
+
+Các thay đổi trên được lưu trong database WordPress và **không bị `git pull` ghi đè**.
+
+## GitHub quản lý gì?
+
+Git quản lý:
+
+- PHP/theme/layout;
+- CSS;
+- plugin logic;
+- seed phục hồi mặc định;
+- tài nguyên giao diện gốc còn cứu được.
+
+Không dùng Git để quản lý nội dung vận hành hằng ngày trong database.
+
+## Đồng bộ
+
+Sau deploy:
 
 ```bash
-wp plugin activate pvdmcn-rebuild
-wp theme activate pvdmcn-demo
 wp pvdmcn sync
 wp cache flush
 ```
 
-## Nguyên tắc dữ liệu
+Từ v0.7, lệnh trên bảo vệ nội dung/menu đã sửa trong CMS.
 
-- `RECOVERED_HTML`: nội dung/tiêu đề còn trong HTML HTTrack.
-- `RECOVERED_LOCAL`: file gốc được cứu từ Google Drive cũ và đóng trong repo.
-- `RECOVERED_PUBLIC_FILE`: còn file public trực tiếp ở nguồn công bố.
-- `RECOVERED_PUBLIC_INDEX`: còn bản ghi/tên file ở HNX/CafeF nhưng chưa đóng file vào repo.
-- `RECONSTRUCTED`: nội dung được tái dựng từ tài liệu chính thức, không giả là nguyên văn Joomla cũ.
-- `MISSING_BODY`: chỉ cứu được URL/menu, chưa có body đáng tin cậy.
+Chỉ dùng các cờ sau khi thật sự muốn ghi đè:
 
-## Lưu ý
+```bash
+wp pvdmcn sync --force-content
+wp pvdmcn sync --force-menu
+```
 
-Bản demo nên tiếp tục để `blog_public=0` cho đến khi nội dung được duyệt và chuyển sang tên miền chính.
+## Tài liệu
 
-## Quy tắc tài liệu từ v0.6
+Giữ nguyên nguyên tắc site cũ:
 
-Các mục Investor Relations không chứa bản chép nội dung PDF. Khi link Google Drive cũ đã được phục hồi, tiêu đề tài liệu trỏ trực tiếp đến Drive giống website Joomla cũ. File local/CafeF/HNX chỉ dùng làm fallback.
+```text
+Tiêu đề tài liệu → Google Drive gốc
+```
+
+Nếu Drive không còn, plugin mới dùng file local/CafeF/HNX làm fallback. Không chép nội dung dài từ PDF thành bài WordPress.
